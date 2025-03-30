@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'linux-worker'}
+    agent any
 
     stages {
         stage('Echo Branch Name') {
